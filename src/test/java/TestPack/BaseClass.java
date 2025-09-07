@@ -26,8 +26,9 @@ public class BaseClass {
 			Properties p= new Properties();
 			p.load(fis);
 			String browser= p.getProperty("browser");
-			System.out.println("Welcome"); // date 04-09-2025 check in my gitupload
+			
 			System.out.println("Changes done");//date 07-09-2025
+			
 			ChromeOptions op = new ChromeOptions();
 			op.addArguments("--incognito");
 			w = new ChromeDriver(op);
