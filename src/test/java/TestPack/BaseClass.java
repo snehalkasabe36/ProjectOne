@@ -28,7 +28,7 @@ public class BaseClass {
 			String browser= p.getProperty("browser");
 			
 			System.out.println("Changes done");//date 07-09-2025
-			
+			//System.out.println("Changes done by snehal");
 			ChromeOptions op = new ChromeOptions();
 			op.addArguments("--incognito");
 			w = new ChromeDriver(op);
